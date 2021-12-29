@@ -141,7 +141,7 @@ min,max = -10,10
 grid = np.linspace(min,max,1000)
 func_grid = mytestfunc(grid)
 
-roots = find_multiple_roots(mytestfunc,min,max,solver='halley')
+roots = find_multiple_roots(mytestfunc,min,max)
 print(roots)
 zeroes = [ 0 for x in roots ]
 
